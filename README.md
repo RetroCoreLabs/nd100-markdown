@@ -39,9 +39,14 @@ dotnet build ND100.Markdown.sln -c Release
 dotnet run --project src/ND100.Markdown.Tool -c Release --no-build
 ```
 
-Output is written to `docs/`.
+Output is written to `docs/`. The generated files are committed to the repository — always commit them after a build:
 
-> **Workflow:** generated docs are committed to the repository. After running the build, stage and commit any changes in `docs/` so the rendered documentation stays in sync with the specs.
+```bash
+build.bat
+git add docs/
+git commit -m "Regenerate docs"
+git push
+```
 
 ### Updating the specs submodule
 
