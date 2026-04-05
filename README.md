@@ -43,6 +43,25 @@ Output is written to `docs/`.
 
 > **Workflow:** generated docs are committed to the repository. After running the build, stage and commit any changes in `docs/` so the rendered documentation stays in sync with the specs.
 
+### Updating the specs submodule
+
+When `nd100-definitions` has upstream changes you want to pull in:
+
+```bash
+git submodule update --remote nd100-definitions
+```
+
+Then rebuild and commit everything together:
+
+```bash
+build.bat
+git add nd100-definitions docs/
+git commit -m "Update nd100-definitions and regenerate docs"
+git push
+```
+
+This records the new submodule pin and the regenerated docs in a single commit.
+
 ---
 
 ## Project structure
