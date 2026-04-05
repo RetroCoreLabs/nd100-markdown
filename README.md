@@ -72,4 +72,4 @@ nd100-markdown/
 
 ## License
 
-See [LICENSE](LICENSE) for details.
+[MIT](LICENSE) — Copyright (c) 2026 Ronny Hansen
