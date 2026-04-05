@@ -70,6 +70,16 @@ nd100-markdown/
 
 ---
 
+## Generated documentation
+
+| Document | Description |
+|----------|-------------|
+| [docs/index.md](docs/index.md) | ND-100 instruction set reference — full instruction listing |
+| [docs/cpu_documentation.md](docs/cpu_documentation.md) | CPU documentation — registers, flags, and instruction details |
+| [docs/addressing_modes.md](docs/addressing_modes.md) | Addressing modes — bit structure and mode descriptions |
+
+---
+
 ## License
 
 [MIT](LICENSE) — Copyright (c) 2026 Ronny Hansen
