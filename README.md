@@ -1,6 +1,8 @@
 # nd100-markdown
 
-Generates **Markdown instruction-set documentation** from the [nd100-definitions](https://github.com/HackerCorpLabs/nd100-definitions) YAML specs.
+Generates **Markdown instruction-set documentation** from the [nd100-definitions](https://github.com/RetroCoreLabs/nd100-definitions) YAML specs.
+
+**Standalone repository:** **NDGen** was the old monolithic umbrella repo; tools are **migrating out** into **one GitHub repo per tool**. This project is the **maintained home** for instruction-set Markdown generation—you do **not** need NDGen to build here. (`NDGen.*` in source paths is legacy naming from the extraction.)
 
 ---
 
@@ -14,7 +16,7 @@ Generates **Markdown instruction-set documentation** from the [nd100-definitions
 ## Getting started
 
 ```bash
-git clone --recurse-submodules https://github.com/HackerCorpLabs/nd100-markdown.git
+git clone --recurse-submodules https://github.com/RetroCoreLabs/nd100-markdown.git
 cd nd100-markdown
 ```
 
